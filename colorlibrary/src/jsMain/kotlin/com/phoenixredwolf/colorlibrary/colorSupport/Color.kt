@@ -16,7 +16,7 @@
  * This file was modified by Barret Vogtman.
  */
 
-package com.phoenixredwolfdigitalservices.colorlibrary.colorSupport
+package com.phoenixredwolf.colorlibrary.colorSupport
 
 import androidx.compose.runtime.Stable
 import kotlin.math.max

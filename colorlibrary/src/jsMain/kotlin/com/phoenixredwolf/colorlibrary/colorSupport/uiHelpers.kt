@@ -16,7 +16,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.phoenixredwolfdigitalservices.colorlibrary.colorSupport
+package com.phoenixredwolf.colorlibrary.colorSupport
 
 /**
  * Packs two Float values into one Long value for use in inline classes.

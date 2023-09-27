@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.phoenixredwolfdigitalservices.colorlibrary.colorSupport
+package com.phoenixredwolf.colorlibrary.colorSupport
 
 import kotlin.math.PI
 import kotlin.math.roundToInt

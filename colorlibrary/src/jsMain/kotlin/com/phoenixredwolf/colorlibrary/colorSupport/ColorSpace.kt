@@ -16,7 +16,7 @@
  * This file modified by Barret Vogtman
  */
 
-package com.phoenixredwolfdigitalservices.colorlibrary.colorSupport
+package com.phoenixredwolf.colorlibrary.colorSupport
 
 import kotlin.math.abs
 import kotlin.math.pow

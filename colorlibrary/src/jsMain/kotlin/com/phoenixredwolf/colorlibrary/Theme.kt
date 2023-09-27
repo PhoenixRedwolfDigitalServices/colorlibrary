@@ -1,4 +1,4 @@
-package com.phoenixredwolfdigitalservices.colorlibrary
+package com.phoenixredwolf.colorlibrary
 
 val primaryLight = Purple40.toCSS()
 val secondaryLight = PurpleGrey40.toCSS()
