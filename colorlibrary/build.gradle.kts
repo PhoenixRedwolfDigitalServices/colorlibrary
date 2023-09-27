@@ -7,7 +7,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.phoenixredwolfdigitalservices.colorlibrary"
+group = "com.github.phoenixredwolfdigitalservices"
 version = "1.0.0"
 
 kotlin {
