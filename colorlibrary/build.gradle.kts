@@ -4,15 +4,16 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.kobweb.library)
-    // alias(libs.plugins.kobwebx.markdown)
+    `maven-publish`
 }
 
-group = "com.phoenixredwolf.colorlibrary"
-version = "1.0-SNAPSHOT"
+group = "com.phoenixredwolfdigitalservices.colorlibrary"
+version = "0.0.1"
 
 kotlin {
-    configAsKobwebLibrary()
+    configAsKobwebLibrary(includeServer = false)
 
+    @Suppress("UNUSED_VARIABLE")
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -25,8 +26,18 @@ kotlin {
                 implementation(compose.html.core)
                 implementation(libs.kobweb.core)
                 implementation(libs.kobweb.silk.core)
-                // implementation(libs.kobwebx.markdown)
             }
+        }
+    }
+}
+
+publishing {
+    publications {
+        register("mavenJsLibrary", MavenPublication::class) {
+            from(components["kotlin"])
+            groupId = "com.github.phoenixredwolfdigitalservices"
+            artifactId = "ColorLibrary"
+            version = "0.0.1"
         }
     }
 }
