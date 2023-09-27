@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.phoenixredwolf"
-version = "1.0.0"
+version = "1.0.1"
 
 kotlin {
     configAsKobwebLibrary(includeServer = false)
@@ -37,7 +37,7 @@ publishing {
             from(components["kotlin"])
             groupId = "com.phoenixredwolf"
             artifactId = "ColorLibrary"
-            version = "1.0.0"
+            version = "1.0.1"
         }
     }
 }
