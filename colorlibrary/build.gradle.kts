@@ -7,7 +7,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.phoenixredwolfdigitalservices"
+group = "com.phoenixredwolf"
 version = "1.0.0"
 
 kotlin {
@@ -35,7 +35,7 @@ publishing {
     publications {
         register("mavenJsLibrary", MavenPublication::class) {
             from(components["kotlin"])
-            groupId = "com.github.phoenixredwolfdigitalservices"
+            groupId = "com.phoenixredwolf"
             artifactId = "ColorLibrary"
             version = "1.0.0"
         }
