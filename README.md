@@ -18,7 +18,7 @@ about that approach on their site, but essentially, your steps will be:
       maven(url = "https://jitpack.io")
   }
   dependencies {
-      implementation("com.github.phoenixredwolfdigitalservices:colorlibrary:0.0.1")
+      implementation("com.github.phoenixredwolfdigitalservices:colorlibrary:1.0.0")
   }
   ```
 
